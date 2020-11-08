@@ -1,0 +1,17 @@
+def luasSegitiga(a, t):
+    luas = a * t / 2
+    return luas
+
+alas1 = 10
+tinggi1 = 20
+alas2 = 15
+tinggi2 = 45
+print('Luas segitiga dg alas', alas1,
+      'dan tinggi', tinggi1,
+      'adalah', luasSegitiga(alas1, tinggi1))
+print('Luas segitiga dg alas', alas2,
+      'dan tinggi', tinggi2,
+      'adalah', luasSegitiga(alas2, tinggi2))
+
+totalLuas = luasSegitiga(10, 20) + luasSegitiga(15, 45)
+print('Jadi total luas kedua segitiga tersebut adalah', totalLuas) 
